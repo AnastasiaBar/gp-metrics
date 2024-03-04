@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -23,14 +23,15 @@
 </head>
 <body>
 
-<form  class="form">
+<form class="form" onsubmit="ym(96649585,'reachGoal','data from the form'); return true;">
     <input type="text">
-    <input type="submit" onsubmit="ym(96649585,'reachGoal','data from the form'); return true;" value="Заказать"/>
+    <button type="submit">Кнопка</button>
 </form>
 
 
 <button onclick="ym(96649585,'reachGoal','click button'); return true;">Клик по кнопке</button>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
