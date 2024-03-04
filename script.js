@@ -14,6 +14,7 @@ form.onsubmit = function(evt) {
         url: "https://jsonplaceholder.typicode.com/posts/1",
         dataType: "html",
         success: function (out) {
+            window['ym'](96649585,'reachGoal','data from the form');
             console.log(out)
         }
     });
