@@ -13,7 +13,6 @@ form.onsubmit = function(evt) {
         type: "GET",
         url: "https://jsonplaceholder.typicode.com/posts/1",
         dataType: "html",
-        data: data,
         success: function (out) {
             console.log(out)
         }
